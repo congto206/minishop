@@ -1,0 +1,67 @@
+/*bắt đầu gallery*/
+div.gallery {
+    margin: 5px;
+    float: left;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.desc {
+    padding: 15px;
+}
+ /* kết thúc*/
+
+ /* bắt đầu from*/
+ fieldset {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    width:100%;
+ }
+ fieldset legend{
+    font-size:1.5rem ;
+    font-weight: bolder;
+ }
+.form-group {
+    margin: 10px 0;
+ }
+.form-group label {
+    font-weight: bolder;
+ }
+ .font-group input,
+ .font-group select,
+ .font-group textarea {
+    width: 100%;
+    margin: 12px 0px;
+    padding: 7px 7px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    box-sizing: border-box;
+ }
+ .form-group input[type=submit]{
+    padding:20px 30px ;
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: #ffffff;
+    border-color:#04aa6d ;
+ }
+ .form-group .list-item input{
+    width: 20%;
+ }
+ .form-group input[type=submit]:hover{
+    background-color: #059862;
+ }
+ 
+ /* end*/
+
